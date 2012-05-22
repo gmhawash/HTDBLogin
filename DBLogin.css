@@ -1,0 +1,138 @@
+﻿BODY
+{
+    font-family: verdana;
+    font-size: 8pt; 
+    margin:  0px; 
+    padding-bottom: 0px; 
+    background-color: white; 
+    padding-left: 0px;
+    padding-right: 0px; 
+    cursor: default; 
+    padding-top: 0px;
+    background: white url("images/aeback1.jpg") no-repeat;
+}
+
+LABEL
+{
+    font-size: 8pt;
+    font-style: normal;
+    font-family: Verdana;
+    color: black;
+}
+
+#content .label
+{
+  clear: both;
+  display: block;
+  float: left;  
+  width: 20em;
+  text-align: right;
+  margin-right: 1em;
+}
+
+#content input.text
+{
+  display: block;
+  width: 10em;
+}
+
+#content select
+{
+  display: block;
+}
+
+#header
+{
+  min-height: 200px;
+  margin-left: 330px;
+  display:block;
+  clear: both;
+}
+
+#content
+{
+  margin-left: 210px;
+}
+
+#buttons 
+{
+  margin-left: 15em;
+  margin-top: 1em;
+}
+
+#buttons .button {
+	font-family: verdana;
+	font-size: 8pt;
+	color: black;
+	vertical-align: middle;
+	background-color: transparent;
+	background-image: url(images/cancelbutton.jpg);
+	background-repeat: no-repeat;
+	padding: 0 0 0 20;
+	text-align: center;
+	text-decoration: none;
+	border: 0px;
+	width: 100px; 
+	height: 2.1em;
+	float: left;
+	margin-left: 1em;
+}
+
+#buttons .loginbutton {
+	font-family: verdana;
+	font-size: 8pt;
+	color: black;
+	vertical-align: middle;
+	background-color: transparent;
+	background-image: url(images/tickbuttonhover.jpg);
+	background-repeat: no-repeat;
+	padding: 0 0 0 20;
+	text-align: center;
+	text-decoration: none;
+	border: 0px;
+	width: 100px; 
+	height: 2.1em;
+	float: left;
+	margin-left: 1em;
+}
+
+#buttons a.loginbutton 
+{
+  padding-top: 5px;
+}
+.normalinput {
+	font-family: verdana;
+	font-size: 8pt;
+	color: black;
+}
+
+.error 
+{
+  clear:both;
+  display: block;
+	font-family: verdana;
+	font-size: 8pt;
+	color: #CD5C5C;
+	vertical-align: middle;
+	margin-top: 1em;
+	width: 50%;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.field
+{
+  display: block;
+  clear: both;
+  padding: 1em; 
+}
+
+.hidden
+{
+  display: none;
+}
+.visible 
+{
+  display: block;
+}
